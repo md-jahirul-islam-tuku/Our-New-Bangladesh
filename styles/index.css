@@ -6,6 +6,10 @@
   font-family: Fira Sans;
 }
 
+body {
+  background-color: #F1F1F3;
+}
+
 header {
   width: 1280px;
   margin: auto;
@@ -200,6 +204,7 @@ nav a:hover {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
 }
 
 .yunus-speech p {
@@ -223,4 +228,72 @@ nav a:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.opinion {
+  width: 1280px;
+  height: 481px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  margin: auto;
+}
+
+.opinion h1 {
+  color: rgba(14, 14, 14, 1);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.opinion-box {
+  width: 1216px;
+  height: 409px;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 80px;
+}
+
+.opinion-header {
+  width: 1216px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
+}
+
+.opinion-option {
+  width: 1216px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-top: none;
+  background: #FFFFFF;
+}
+#option {
+  width: 152px;
+  height: 44px;
+  padding: 10px 14px 10px 14px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 500;
 }
