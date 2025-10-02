@@ -78,7 +78,7 @@ nav a:hover {
 .pillars {
   width: 1280px;
   height: 324px;
-  margin: 80px 0;
+  margin: 80px auto;
 }
 
 .pillars h1 {
@@ -101,6 +101,126 @@ nav a:hover {
   border-radius: 16px;
   background: rgba(255, 255, 255, 1);
 }
-.pillars-card h2{
+
+.pillars-card h2 {
   margin: 14px 0 28px 0;
+}
+
+.future {
+  width: 1280px;
+  margin: 0 auto 80px;
+}
+
+.future-card-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.future-card {
+  width: 410.67px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.future h1 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.future p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0 32px 0;
+}
+
+.future-card img {
+  width: 64px;
+  height: 64px;
+}
+
+.future-card h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 24px 0 12px 0;
+}
+
+.future-card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 13px 0 26px 0;
+}
+
+.future-card a {
+  padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.future-card-1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.future-card-2 {
+  background: rgba(198, 228, 214, 1);
+}
+
+.future-card-3 {
+  background: rgba(247, 235, 207, 1);
+}
+
+.card-a-1 {
+  background: rgba(84, 144, 245, 1);
+}
+
+.card-a-2 {
+  background: rgba(9, 161, 92, 1);
+}
+
+.card-a-3 {
+  background: rgba(255, 194, 57, 1);
+}
+
+.yunus-speech {
+  width: 1280px;
+  height: 256px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+
+.yunus-speech p {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 24px;
+  background: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+}
+
+.yunus-speech h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.yunus-speech h5 {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
