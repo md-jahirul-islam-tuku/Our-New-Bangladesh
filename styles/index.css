@@ -285,6 +285,7 @@ nav a:hover {
   border-top: none;
   background: #FFFFFF;
 }
+
 #option {
   width: 152px;
   height: 44px;
@@ -296,4 +297,125 @@ nav a:hover {
   color: rgba(14, 14, 14, 1);
   font-size: 16px;
   font-weight: 500;
+}
+
+.news-section {
+  width: 1280px;
+  margin: auto;
+}
+
+.news-section>h1 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.news-section>p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 24px 0 32px 0;
+}
+
+.news-1 {
+  width: 1184px;
+  height: 402px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+}
+.news-2 {
+  width: 1184px;
+  height: 402px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+}
+.news-3 {
+  width: 1184px;
+  height: 402px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.news-img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-content {
+  width: 744px;
+  height: 290px;
+  margin: 0 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32;
+}
+.news-content-2 {
+  margin: 0 32px 0 0;
+}
+
+.news-content h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.news-content img {
+  width: 134px;
+  height: 40px;
+  margin: 12px 0;
+}
+
+.date-time {
+  display: flex;
+  gap: 15px;
+  margin: 12px 0;
+}
+
+.news-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-content a {
+  /* width: 139px;
+  height: 48px; */
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 32px;
 }
