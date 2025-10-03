@@ -287,7 +287,7 @@ nav a:hover {
 }
 
 #option {
-  width: 152px;
+  width: 192px;
   height: 44px;
   padding: 10px 14px 10px 14px;
   box-sizing: border-box;
@@ -297,6 +297,7 @@ nav a:hover {
   color: rgba(14, 14, 14, 1);
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .news-section {
@@ -449,6 +450,12 @@ nav a:hover {
   font-size: 40px;
   font-weight: 700;
   margin: 0 12px;
+  cursor: pointer;
+}
+#two-hundred{
+  background: rgba(0, 106, 80, 1);
+  color: #FFFFFF;
+  border: none;
 }
 
 #other-amount {
@@ -475,6 +482,7 @@ nav a:hover {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .newsletter {
