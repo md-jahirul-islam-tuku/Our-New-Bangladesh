@@ -528,3 +528,28 @@ nav a:hover {
   display: flex;
   justify-content: center;
 }
+
+footer {
+  height: 226px;
+  padding: 50px 160px 50px 160px;
+  background: rgba(255, 255, 255, 1);
+  margin: auto;
+  text-align: center;
+}
+
+footer hr {
+  width: 1122px;
+  height: 0;
+  margin: 32px auto;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+footer img {
+  margin: 0 10px;
+}
+footer p{
+  margin-top: 50px;
+}
+footer span{
+  color: rgba(0, 106, 80, 1);
+}
