@@ -476,3 +476,55 @@ nav a:hover {
   font-size: 18px;
   font-weight: 600;
 }
+
+.newsletter {
+  width: 1080px;
+  text-align: center;
+  margin: 0 auto 80px;
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+  padding: 80px 100px;
+}
+
+.newsletter h1 {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.newsletter p {
+  width: 622px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 16px auto 24px;
+}
+
+#email {
+  width: 600px;
+  padding: 18px 40px 18px 40px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(255, 255, 255, 1);
+}
+
+#subscribe {
+  width: 150px;
+  height: 56px;
+  border: none;
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgba(0, 106, 80, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input-content {
+  display: flex;
+  justify-content: center;
+}
